@@ -12,7 +12,7 @@ int main()
 	scanf("%d", &n);
 	for (i = 1; i <= n; i++)
 	{
-		ret = ret * i;
+		ret = ret * i; 
 	}
 	printf("%dµÄ½×³ËÎª%d",n, ret);
 	return 0;
